@@ -15,10 +15,11 @@
 ---02 COLORS
 
    - Primary: #e67e22
-   - Tints:
+   - Tints: #fdf2e9
    - Shades:
    - Accents:
    - Greys: #555
+   #333
 
 --- 05 SHADOWS
 
@@ -49,11 +50,33 @@ body {
   color: #555;
 }
 
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 7.4rem 0;
+}
+
 .hero {
   display: grid;
   max-width: 113rem;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  align-items: center;
+  gap: 7.4rem;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 2.4rem;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
 }
 
 .hero-img {
