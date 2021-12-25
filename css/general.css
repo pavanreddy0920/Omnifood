@@ -124,3 +124,25 @@ body {
 strong {
   font-weight: 600;
 }
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: #e67e22;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
+}
+
+.center-text {
+  text-align: center;
+}
