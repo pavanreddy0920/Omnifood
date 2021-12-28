@@ -73,6 +73,10 @@ body {
   column-gap: 6.4rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid-center-v {
   align-items: center;
 }
@@ -83,6 +87,10 @@ body {
 
 .grid-3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .heading-primary,
@@ -146,7 +154,7 @@ strong {
 }
 
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 
 .link:link,
