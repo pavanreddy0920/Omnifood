@@ -1,0 +1,17 @@
+/***************************************************/
+/******* BELOW 1232 pixels (77 REM or EM)
+/***************************************************/
+
+@media (max-width: 77em) {
+  .hero {
+    max-width: 105rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
