@@ -173,3 +173,40 @@
     font-size: 2.4rem;
   }
 }
+
+/***************************************************/
+/******* BELOW 700 pixels (44 REM or EM)
+/***************************************************/
+
+@media (max-width: 44em) {
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diet {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .address-col,
+  .logo-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+}
